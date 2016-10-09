@@ -1,0 +1,17 @@
+/tmp
+/node_modules
+/bower_components
+/.idea
+/.vscode
+.project
+.classpath
+*.launch
+.settings/
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+.DS_Store
+Thumbs.db

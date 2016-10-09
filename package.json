@@ -1,0 +1,22 @@
+{
+  "name": "ng2-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run build && node_modules/.bin/electron .",
+    "build": "cd app && node_modules/.bin/ng build && cd .. && node build-index.js",
+    "ng": "cd app && node_modules/.bin/ng"
+  },
+  "author": "Milan Stojimirov",
+  "license": "ISC",
+  "devDependencies": {
+    "Q": "0.0.1",
+    "angular-cli": "^1.0.0-beta.17",
+    "asar": "^0.12.3",
+    "cheerio": "^0.22.0",
+    "electron-prebuilt": "^1.4.3",
+    "fs-jetpack": "^0.9.2",
+    "rcedit": "^0.7.0"
+  }
+}
